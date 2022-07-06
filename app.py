@@ -19,7 +19,7 @@ def index():
     else:
         return render_template("testpage.html",result="WAITING")
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=int("80"))
+    app.run()
 
 
 
